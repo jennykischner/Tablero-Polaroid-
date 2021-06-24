@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
+    font-family: "Cedarville Cursive", cursive;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor {
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20vh;
+  }
+  
+  p {
+    margin-top: 5px;
+    font-size: 16px;
+  }
+  .box {
+    background-color: white;
+    margin-right: 2vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 12.5em;
+    height: 12.5em;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 1px 2px 3px black;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .divImg {
+    overflow: hidden;
+    height: 70vh;
+  }
+  
+  #tarjeta1 {
+    transform: rotate(-10deg);
+    transition: 0.2s;
+  }
+  
+  #tarjeta1:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+  
+  #tarjeta2 {
+    transform: rotate(20deg);
+    transition: 0.2s;
+  }
+  #tarjeta2:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+  #tarjeta3 {
+    transform: rotate(-20deg);
+    transition: 0.2s;
+  }
+  #tarjeta3:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+  
+  #tarjeta4 {
+    transform: rotate(20deg);
+    transition: 0.2s;
+  }
+  #tarjeta4:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+  
+  #tarjeta5 {
+    transform: rotate(-15deg);
+    transition: 0.2s;
+  }
+  
+  #tarjeta5:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+  #tarjeta6 {
+    transform: rotate(5deg);
+    transition: 0.2s;
+  }
+  #tarjeta6:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+  #tarjeta7 {
+    transform: rotate(-18deg);
+    transition: 0.2s;
+  }
+  #tarjeta7:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+  #tarjeta8 {
+    transform: rotate(8deg);
+    transition: 0.2s;
+  }
+  #tarjeta8:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+  
+  #tarjeta9 {
+    transition: 0.2s;
+    transform: rotate(-8deg);
+    transition: 0.2s;
+  }
+  #tarjeta9:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
+
+  #tarjeta10 {
+    transition: 0.2s;
+    transform: rotate(-8deg);
+    transition: 0.2s;
+  }
+  #tarjeta10:hover {
+    transform: scale(1.5);
+    z-index: 1;
+    box-shadow: 5px 10px 100px black;
+  }
